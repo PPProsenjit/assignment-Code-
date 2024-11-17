@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-long multiplicationTabli(int n){
+long multiplicationTable(int n){
     int i = 1;
     
    //get number 1 to 10
@@ -17,6 +17,6 @@ int main (){
     printf("Enter the number n :");
     scanf("%d",&n);
     //Function call
-    multiplicationTabli(n);
+    multiplicationTable(n);
     return 0;
 }
